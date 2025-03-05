@@ -33,6 +33,7 @@ else:
 #4 Write a Python program that invoke square root function after specific milliseconds
 msec = int(input())
 a = int(input())
+time.sleep(msec/1000)
 print(f"Square root of {a} after {msec} milliseconds is {math.sqrt(a)}")
 
 #5 Write a Python program with builtin function that returns True if all elements of the tuple are true.
